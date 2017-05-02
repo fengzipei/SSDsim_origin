@@ -1,0 +1,1 @@
+/usr/bin/cc  -g  -Wl,--enable-auto-import CMakeFiles/SSDsim_origin.dir/avlTree.c.o CMakeFiles/SSDsim_origin.dir/flash.c.o CMakeFiles/SSDsim_origin.dir/initialize.c.o CMakeFiles/SSDsim_origin.dir/pagemap.c.o CMakeFiles/SSDsim_origin.dir/ssd.c.o  -o SSDsim_origin.exe -Wl,--out-implib,libSSDsim_origin.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
