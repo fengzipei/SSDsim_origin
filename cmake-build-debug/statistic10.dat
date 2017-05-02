@@ -1,5 +1,5 @@
 parameter file: page.parameters
-trace file: PRXY_0
+trace file: WDEV_0
 -----------------------parameter file----------------------
 #parameter file
 dram capacity = 0;     #the unit is B
@@ -90,24 +90,24 @@ greed MPW command=1;            #1 for using multi-plane write greedily, 0 for n
 aged=0;                         #1 for making SSD aged, 0 for keeping SSD non-aged
 aged ratio=0.7;                #If we need to make SSD aged, set the aged ratio in advance
 -----------------------simulation output----------------------
-the 0 channel, 0 chip, 0 die, 2048 plane has :          1616 erase operations
-the 0 channel, 0 chip, 1 die, 2048 plane has :          1615 erase operations
-the 0 channel, 1 chip, 0 die, 2048 plane has :          1616 erase operations
-the 0 channel, 1 chip, 1 die, 2048 plane has :          1614 erase operations
-the 1 channel, 0 chip, 0 die, 2048 plane has :          1615 erase operations
-the 1 channel, 0 chip, 1 die, 2048 plane has :          1614 erase operations
-the 1 channel, 1 chip, 0 die, 2048 plane has :          1615 erase operations
-the 1 channel, 1 chip, 1 die, 2048 plane has :          1615 erase operations
+the 0 channel, 0 chip, 0 die, 2048 plane has :          3410 erase operations
+the 0 channel, 0 chip, 1 die, 2048 plane has :          3410 erase operations
+the 0 channel, 1 chip, 0 die, 2048 plane has :          3410 erase operations
+the 0 channel, 1 chip, 1 die, 2048 plane has :          3410 erase operations
+the 1 channel, 0 chip, 0 die, 2048 plane has :          3411 erase operations
+the 1 channel, 0 chip, 1 die, 2048 plane has :          3411 erase operations
+the 1 channel, 1 chip, 0 die, 2048 plane has :          3411 erase operations
+the 1 channel, 1 chip, 1 die, 2048 plane has :          3411 erase operations
 
 
 ---------------------------statistic data---------------------------
-min lsn:           312
-max lsn:      43360744
-read count:        171040
-program count:       3231877                        include the flash write count leaded by read requests
-the read operation leaded by un-covered update count:         24486
-erase count:         25843
-direct erase count:         16079
+min lsn:           856
+max lsn:      35558056
+read count:       1678088
+program count:       6610717                        include the flash write count leaded by read requests
+the read operation leaded by un-covered update count:         28567
+erase count:         54576
+direct erase count:         54576
 copy back count:             0
 multi-plane program count:             0
 multi-plane read count:             0
@@ -116,19 +116,19 @@ interleave read count:             0
 interleave two plane and one program count:             0
 interleave two plane count:             0
 gc copy back count:             0
-write flash count:       3121392
+write flash count:       4960234
 waste page count:             0
 interleave erase count:             0
 multiple plane erase count:             0
 interleave multiple plane erase count:             0
-read request count:         29362
-write request count:        970638
-read request average size:     19.435602
-write request average size:     12.555524
-read request average response time: 3143373
-write request average response time: 924390
+read request count:        200985
+write request count:        799011
+read request average size:     33.148022
+write request average size:     24.237820
+read request average response time: 5215710
+write request average response time: 8163477
 buffer read hits:             0
 buffer read miss:             0
 buffer write hits:             0
 buffer write miss:             0
-erase:         12920
+erase:         27284

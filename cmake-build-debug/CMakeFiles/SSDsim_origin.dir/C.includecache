@@ -67,6 +67,8 @@ initialize.h
 /cygdrive/c/Users/lab/CLionProjects/SSDsim_origin/initialize.h
 
 /cygdrive/c/Users/lab/CLionProjects/SSDsim_origin/ssd.c
+unistd.h
+-
 ssd.h
 /cygdrive/c/Users/lab/CLionProjects/SSDsim_origin/ssd.h
 
